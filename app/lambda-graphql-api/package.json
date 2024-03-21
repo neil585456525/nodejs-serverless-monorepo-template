@@ -1,0 +1,23 @@
+{
+  "name": "lambda-graphql-api",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "license": "ISC",
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "global-types": "workspace:*",
+    "@middy/core": "~5.3.2"
+  },
+  "devDependencies": {
+    "ts-jest": "~29.1.1",
+    "typescript": "~5.1.6",
+    "@types/jest": "~29.5.3",
+    "ts-node": "~10.9.1",
+    "@types/node": "~20.4.8",
+    "jest": "~29.6.2",
+    "@types/aws-lambda": "~8.10.136"
+  }
+}
