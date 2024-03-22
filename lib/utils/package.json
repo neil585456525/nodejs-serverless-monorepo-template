@@ -1,5 +1,5 @@
 {
-  "name": "persistence",
+  "name": "utils",
   "version": "1.0.0",
   "main": "src/index.ts",
   "type": "module",
@@ -8,13 +8,7 @@
     "build": ""
   },
   "dependencies": {
-    "global-types": "workspace:*",
-    "utils": "workspace:*",
-    "dynamoose": "~4.0.0",
-    "drizzle-orm": "~0.30.4",
-    "@aws-sdk/client-rds-data": "~3.536.0",
-    "@aws-sdk/credential-providers": "~3.535.0",
-    "drizzle-kit": "~0.20.14"
+    "global-types": "workspace:*"
   },
   "devDependencies": {
     "ts-jest": "~29.1.1",

@@ -1,1 +1,2 @@
-import dynamoose from "dynamoose";
+export * from "./model/UserModel";
+export * from "./model/GroupModel";

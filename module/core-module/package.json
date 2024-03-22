@@ -1,5 +1,5 @@
 {
-  "name": "graphql-api",
+  "name": "core-module",
   "version": "1.0.0",
   "main": "src/index.ts",
   "type": "module",
@@ -8,7 +8,10 @@
     "build": ""
   },
   "dependencies": {
-    "global-types": "workspace:*"
+    "global-types": "workspace:*",
+    "utils": "workspace:*",
+    "persistence": "workspace:*",
+    "bcrypt": "^5.1.1"
   },
   "devDependencies": {
     "ts-jest": "~29.1.1",

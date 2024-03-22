@@ -1,0 +1,4 @@
+{
+  "extends": "global-types",
+  "include": ["**/*.ts"]
+}

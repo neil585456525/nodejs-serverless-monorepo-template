@@ -274,12 +274,20 @@
   ],
   "projects": [
     {
-      "packageName": "lambda-graphql-api",
-      "projectFolder": "./app/lambda-graphql-api"
+      "packageName": "graphql-api-lambda",
+      "projectFolder": "./app/graphql-api-lambda"
+    },
+    {
+      "packageName": "core-module",
+      "projectFolder": "./module/core-module"
     },
     {
       "packageName": "global-types",
       "projectFolder": "./lib/global-types"
+    },
+    {
+      "packageName": "utils",
+      "projectFolder": "./lib/utils"
     },
     {
       "packageName": "persistence",
